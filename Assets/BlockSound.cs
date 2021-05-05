@@ -7,9 +7,7 @@ public class BlockSound : MonoBehaviour
 
     private AudioSource audioSource;
 
-    //地面の位置
-    private float groundLevel = -3.0f;
-
+   
     Rigidbody2D rigid2D;
     // Start is called before the first frame update
     void Start()
